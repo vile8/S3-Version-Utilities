@@ -73,14 +73,14 @@ Each of these is with the default settings of 100 files per thread and 10 thread
 	* already exists: 3.65 seconds
 
 **Large results comparison vs. aws cli s3 sync utility :** Our wp-content folder has approx. 14310 files consisting of 484MB
-	* AWS s3 sync
-		* fresh (empty) folder: 1 minute and 43 seconds 
-		* already exists: 6.4 seconds
-	* Versioned download
-		* fresh (empty) folder: 2 Minutes 7 seconds
-		* fresh with async behavior: 2 minutes even
-		* already exists: 48 Seconds
-		* already exists with async behavior: 46.87 (suprising not much change)
+* AWS s3 sync
+	* fresh (empty) folder: 1 minute and 43 seconds 
+	* already exists: 6.4 seconds
+* Versioned download
+	* fresh (empty) folder: 2 Minutes 7 seconds
+	* fresh with async behavior: 2 minutes even
+	* already exists: 48 Seconds
+	* already exists with async behavior: 46.87 (suprising not much change)
 
 ### Summary ###
 
