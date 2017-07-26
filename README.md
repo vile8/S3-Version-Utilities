@@ -14,11 +14,9 @@ Then put the user credentials on the machine you expect the script to run on
 under the ~/.aws/credentials file for the user it will be running as 
 in the format:
 
-`
 [default]
 aws_access_key_id = <your users aws key id>
 aws_secret_access_key = <your users aws secret id>
-`
 
 ### Local Setup for Python ###
 We use the Python BOTO toolkit. You will need to pip install all the libs 
