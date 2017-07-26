@@ -36,7 +36,9 @@ You can view the sample manifest included to get an idea of what its creating.
 (fictional... you will NEED to change the values)
 
 **Running the script:**
+```js
 python s3_make_manifest.py -m <manifest csv file name> -b <s3 bucket name>
+```
 
 ### Versioned Manifest Download Tool ###
 
@@ -53,7 +55,9 @@ could be unintended results. If you specify "/" for example (I have added code t
 protect against this, but its your foot to shoot...)
 
 **Running the script:**
+```js
 python s3_get_versioned_files_by_manifest.py -m <Manifest csv file name> -r <path to destination directory> -b <s3 bucket name>
+```
 
 ### Performance ###
 
